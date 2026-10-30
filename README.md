@@ -1,9 +1,13 @@
 # RutaViva · Sitio web turístico de Ecuador · Victor Nuñez
 
-Proyecto académico de un sitio web turístico desarrollado con **HTML5 semántico** y **CSS3 externo**, sin JavaScript. Es responsivo con enfoque *Mobile First* y está disponible como imagen en Docker Hub.
+Proyecto académico de un sitio web turístico desarrollado con **HTML5 semántico** y **CSS3 externo**, sin JavaScript. Es responsivo con enfoque *Mobile First* y está disponible como imagen en Docker Hub y Github.
+ 
+[![GitHub](https://img.shields.io/badge/GitHub-victornunez--13%2FRutaviva-181717?logo=github&logoColor=white)](https://github.com/victornunez-13/Proyecto-P-gina-Turistica-Rutaviva/tree/main)
 
 [![Docker Hub](https://img.shields.io/badge/Docker%20Hub-victor124312%2Fpagina--turistica--rutaviva-2496ED?logo=docker&logoColor=white)](https://hub.docker.com/r/victor124312/pagina-turistica-rutaviva)
 
+**Repositorio en GitHub:** https://github.com/victornunez-13/Proyecto-P-gina-Turistica-Rutaviva/tree/main
+ 
 **Imagen en Docker Hub:** https://hub.docker.com/r/victor124312/pagina-turistica-rutaviva
 
 ---
