@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Itinerarios día por día · RutaViva Ecuador</title>
+  <meta name="description" content="Itinerarios de viaje en Ecuador organizados por días y horarios: Andes y Volcanes (5 días) y Galápagos (6 días), con todas las actividades detalladas.">
+  <meta name="theme-color" content="#c05621">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;1,600&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="RutaViva — volver al inicio">
+        <img class="brand-mark" src="images/logo-badge.png" alt="" width="42" height="42" decoding="async">
+        <span class="brand-name">Ruta<b>Viva</b></span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-label="Abrir o cerrar el menú de navegación">
+      <label for="nav-toggle" class="nav-toggle" aria-hidden="true">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="destinos.html">Destinos</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="paquetes.html">Paquetes</a></li>
+          <li><a href="itinerarios.html" aria-current="page">Itinerarios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+
+    <!-- ================== HÉROE DE PÁGINA ================== -->
+    <section class="page-hero" aria-labelledby="titulo-itinerarios">
+      <div class="hero-media">
+        <img src="images/banos-swing.jpg" alt="Swing de la Casa del Árbol en Baños sobrevolando los Andes">
+      </div>
+      <div class="container">
+        <div class="page-hero-content">
+          <p class="kicker">Tu viaje, hora por hora</p>
+          <h1 id="titulo-itinerarios">Itinerarios</h1>
+          <p class="lead">
+            Dos de nuestras rutas más pedidas, desglosadas día por día y con
+            horarios de referencia, para que sepas exactamente qué esperar.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== PESTAÑAS DE ITINERARIOS ================== -->
+    <section class="section" id="andes" aria-label="Itinerarios detallados">
+      <div class="container">
+
+        <!-- Las casillas van primero: permiten cambiar de pestaña solo con CSS -->
+        <div class="tabs-wrap">
+          <input class="tab-input" type="radio" name="itinerario" id="tab-andes" checked>
+          <input class="tab-input" type="radio" name="itinerario" id="tab-galapagos">
+
+          <label class="tab-label" for="tab-andes">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
+            Andes y Volcanes · 5 días
+          </label>
+          <label class="tab-label" for="tab-galapagos">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10Z"/></svg>
+            Galápagos · 6 días
+          </label>
+
+          <!-- ============ ITINERARIO A: ANDES Y VOLCANES ============ -->
+          <section class="tab-panel" id="panel-andes" aria-label="Itinerario Andes y Volcanes, cinco días">
+
+            <div class="itinerario-resumen" aria-label="Resumen del itinerario Andes y Volcanes">
+              <div class="resumen-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                <div><strong>5 días · 4 noches</strong><span>Quito, Cotopaxi, Baños, Otavalo</span></div>
+              </div>
+              <div class="resumen-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
+                <div><strong>Dificultad ligera</strong><span>Caminatas suaves, apto para familias</span></div>
+              </div>
+              <div class="resumen-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                <div><strong>Máximo 12 viajeros</strong><span>Grupos pequeños, trato cercano</span></div>
+              </div>
+              <div class="resumen-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+                <div><strong>Salidas garantizadas</strong><span>Lunes y jueves de cada semana</span></div>
+              </div>
+            </div>
+
+            <div class="timeline">
+
+              <article class="dia">
+                <span class="dia-num" aria-hidden="true">1</span>
+                <div class="dia-head">
+                  <h3>Llegada a Quito</h3>
+                  <p class="ruta">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Aeropuerto de Quito · Centro histórico
+                  </p>
+                  <div class="dia-tags"><span class="dia-tag">Llegada</span><span class="dia-tag">Ciudad</span></div>
+                </div>
+                <div class="actividades">
+                  <div><time datetime="14:00">14:00</time><p>Recepción en el aeropuerto y traslado al hotel del centro histórico. <span>Bienvenida con jugo de mora y bizcocho Quiteño.</span></p></div>
+                  <div><time datetime="16:30">16:30</time><p>Paseo de aclimatación por la Plaza Grande y la calle La Ronda. <span>A 2.850 m, el primer día es suave a propósito.</span></p></div>
+                  <div><time datetime="19:30">19:30</time><p>Cena de bienvenida en restaurante colonial. <span>Incluye locro de papa y canelazo para el frío.</span></p></div>
+                </div>
+              </article>
+
+              <article class="dia">
+                <span class="dia-num" aria-hidden="true">2</span>
+                <div class="dia-head">
+                  <h3>Quito esencial</h3>
+                  <p class="ruta">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Centro histórico · Mitad del Mundo · TelefériQo
+                  </p>
+                  <div class="dia-tags"><span class="dia-tag">Patrimonio</span><span class="dia-tag">Cultura</span></div>
+                </div>
+                <div class="actividades">
+                  <div><time datetime="08:30">08:30</time><p>City tour guiado: La Compañía de Jesús, la Catedral Metropolitana y el Monasterio de San Francisco. <span>Tres joyas del barroco Quiteño.</span></p></div>
+                  <div><time datetime="13:00">13:00</time><p>Almuerzo en el centro histórico. <span>Tarde libre para recorrer talleres y tiendas de la Mariscal.</span></p></div>
+                  <div><time datetime="15:00">15:00</time><p>Visita al complejo de la Mitad del Mundo. <span>Experimentos y fotos con un pie en cada hemisferio.</span></p></div>
+                  <div><time datetime="17:30">17:30</time><p>Subida al TelefériQo hasta los 4.050 m del Pichincha. <span>Vista panorámica de la ciudad al atardecer, si el clima acompaña.</span></p></div>
+                </div>
+              </article>
+
+              <article class="dia">
+                <span class="dia-num" aria-hidden="true">3</span>
+                <div class="dia-head">
+                  <h3>Volcán Cotopaxi</h3>
+                  <p class="ruta">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Parque Nacional Cotopaxi · Hacia Baños
+                  </p>
+                  <div class="dia-tags"><span class="dia-tag">Naturaleza</span><span class="dia-tag">Aventura</span></div>
+                </div>
+                <div class="actividades">
+                  <div><time datetime="08:00">08:00</time><p>Salida en transporte privado hacia el Parque Nacional Cotopaxi. <span>El páramo despierta con luz perfecta para fotos.</span></p></div>
+                  <div><time datetime="10:30">10:30</time><p>Caminata alrededor de la laguna de Limpiopungo. <span>Avistamiento de llamas, víboras del sol y gallaretas.</span></p></div>
+                  <div><time datetime="12:30">12:30</time><p>Almuerzo en hacienda andina tradicional. <span>Hornado y papas con cuero en el corazón del parque.</span></p></div>
+                  <div><time datetime="15:00">15:00</time><p>Ruta escénica hacia el refugio José Rivas, a 4.800 m. <span>Opcional: breve caminata sobre la línea de nieve.</span></p></div>
+                  <div><time datetime="18:00">18:00</time><p>Descenso hacia Baños de Agua Santa y check-in en el hotel. <span>Noche libre para conocer el malecón.</span></p></div>
+                </div>
+              </article>
+
+              <article class="dia">
+                <span class="dia-num" aria-hidden="true">4</span>
+                <div class="dia-head">
+                  <h3>Baños y sus cascadas</h3>
+                  <p class="ruta">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Ruta de las Cascadas · Casa del Árbol
+                  </p>
+                  <div class="dia-tags"><span class="dia-tag">Adrenalina</span><span class="dia-tag">Aventura</span></div>
+                </div>
+                <div class="actividades">
+                  <div><time datetime="09:00">09:00</time><p>Recorrido de la Ruta de las Cascadas. <span>Opciones: bici de montaña, chiva o transporte del grupo.</span></p></div>
+                  <div><time datetime="11:00">11:00</time><p>Visita al Pailón del Diablo. <span>Sendero detrás de la cortina de agua incluido para valientes.</span></p></div>
+                  <div><time datetime="14:00">14:00</time><p>Almuerzo libre y tiempo para compras de artesanías. <span>Melcochas y tallados de tagua, imperdibles.</span></p></div>
+                  <div><time datetime="16:00">16:00</time><p>Subida a la Casa del Árbol. <span>Vuelo en el famoso swing del fin del mundo, con el Tungurahua de fondo.</span></p></div>
+                  <div><time datetime="19:00">19:00</time><p>Baño relajante en las piscinas termales de La Virgen. <span>Agua volcánica medicinal, ideal para cerrar el día.</span></p></div>
+                </div>
+              </article>
+
+              <article class="dia">
+                <span class="dia-num" aria-hidden="true">5</span>
+                <div class="dia-head">
+                  <h3>Otavalo y despedida</h3>
+                  <p class="ruta">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Mercado de Otavalo · Laguna de Cuicocha · Quito
+                  </p>
+                  <div class="dia-tags"><span class="dia-tag">Cultura</span><span class="dia-tag">Regreso</span></div>
+                </div>
+                <div class="actividades">
+                  <div><time datetime="08:30">08:30</time><p>Salida hacia Otavalo, la capital artesanal de Ecuador. <span>Ruta con vista a los volcanes Cayambe e Imbabura.</span></p></div>
+                  <div><time datetime="10:00">10:00</time><p>Recorrido por el mercado indígena, el más grande de Sudamérica. <span>Textiles, tagua y negociación amable incluidas.</span></p></div>
+                  <div><time datetime="12:00">12:00</time><p>Visita al mirador de la laguna de Cuicocha. <span>Cráter volcánico con isla en el centro, a 3.300 m.</span></p></div>
+                  <div><time datetime="13:30">13:30</time><p>Almuerzo típico con las comunidades locales. <span>Despedida con danza y música andina.</span></p></div>
+                  <div><time datetime="16:00">16:00</time><p>Regreso a Quito y fin de nuestros servicios. <span>Traslado al hotel o al aeropuerto, según tu vuelo.</span></p></div>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <!-- ============ ITINERARIO B: GALÁPAGOS ============ -->
+          <section class="tab-panel" id="panel-galapagos" aria-label="Itinerario Galápagos, seis días">
+
+            <div class="itinerario-resumen" aria-label="Resumen del itinerario Galápagos">
+              <div class="resumen-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                <div><strong>6 días · 5 noches</strong><span>Santa Cruz e Isabela</span></div>
+              </div>
+              <div class="resumen-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
+                <div><strong>Dificultad ligera</strong><span>Snorkel y caminatas moderadas</span></div>
+              </div>
+              <div class="resumen-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                <div><strong>Máximo 12 viajeros</strong><span>Con guía naturalista local</span></div>
+              </div>
+              <div class="resumen-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+                <div><strong>Salidas diarias</strong><span>Sujetas a disponibilidad de lodges</span></div>
+              </div>
+            </div>
+
+            <div class="timeline">
+
+              <article class="dia">
+                <span class="dia-num" aria-hidden="true">1</span>
+                <div class="dia-head">
+                  <h3>Llegada a Santa Cruz</h3>
+                  <p class="ruta">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Isla Baltra · Puerto Ayora
+                  </p>
+                  <div class="dia-tags"><span class="dia-tag">Llegada</span><span class="dia-tag">Playa</span></div>
+                </div>
+                <div class="actividades">
+                  <div><time datetime="11:00">11:00</time><p>Recepción en el aeropuerto de Baltra y cruce en lancha a Santa Cruz. <span>Primer contacto con iguanas y lobos marinos.</span></p></div>
+                  <div><time datetime="13:00">13:00</time><p>Almuerzo en Puerto Ayora y check-in en el hotel. <span>Breve descanso para dejar equipaje.</span></p></div>
+                  <div><time datetime="15:00">15:00</time><p>Tarde en la Bahía Tortuga. <span>Playa de arena blanca compartida con lobos marinos y pinzones.</span></p></div>
+                  <div><time datetime="19:00">19:00</time><p>Cena en el malecón. <span>Paseo nocturno por la calle de los pescadores.</span></p></div>
+                </div>
+              </article>
+
+              <article class="dia">
+                <span class="dia-num" aria-hidden="true">2</span>
+                <div class="dia-head">
+                  <h3>Ciencia y snorkel</h3>
+                  <p class="ruta">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Estación Charles Darwin · Las Grietas
+                  </p>
+                  <div class="dia-tags"><span class="dia-tag">Naturaleza</span><span class="dia-tag">Snorkel</span></div>
+                </div>
+                <div class="actividades">
+                  <div><time datetime="08:30">08:30</time><p>Visita a la Estación Científica Charles Darwin. <span>Centro de crianza de tortugas gigantes, de recién nacidas a centenarias.</span></p></div>
+                  <div><time datetime="11:30">11:30</time><p>Caminata al complejo de Las Grietas. <span>Grietas volcánicas con agua cristalina entre paredes de lava.</span></p></div>
+                  <div><time datetime="13:00">13:00</time><p>Almuerzo en el pueblo. <span>Tarde libre: kayak en la bahía o hamaca frente al mar.</span></p></div>
+                  <div><time datetime="17:00">17:00</time><p>Puesta de sol en el muelle de los pescadores. <span>Pelícanos y fragatas en su hora de pesca.</span></p></div>
+                </div>
+              </article>
+
+              <article class="dia">
+                <span class="dia-num" aria-hidden="true">3</span>
+                <div class="dia-head">
+                  <h3>Isla Bartolomé</h3>
+                  <p class="ruta">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Navegación diurna desde Puerto Ayora
+                  </p>
+                  <div class="dia-tags"><span class="dia-tag">Crucero</span><span class="dia-tag">Snorkel</span></div>
+                </div>
+                <div class="actividades">
+                  <div><time datetime="06:30">06:30</time><p>Salida temprana en yate hacia la isla Bartolomé. <span>Navegación de dos horas con desayuno a bordo.</span></p></div>
+                  <div><time datetime="09:30">09:30</time><p>Ascenso al mirador de Bartolomé. <span>360 escalones hasta la vista más famosa de Galápagos: Pináculo Rock.</span></p></div>
+                  <div><time datetime="11:30">11:30</time><p>Snorkel en la bahía. <span>Pingüinos de Galápagos, tortugas marinas y tiburones de arrecife.</span></p></div>
+                  <div><time datetime="15:30">15:30</time><p>Regreso a Puerto Ayora. <span>Tarde libre para descansar o visitar la playa de la Estación.</span></p></div>
+                </div>
+              </article>
+
+              <article class="dia">
+                <span class="dia-num" aria-hidden="true">4</span>
+                <div class="dia-head">
+                  <h3>Isla Isabela</h3>
+                  <p class="ruta">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Puerto Villamil · Sierra Negra
+                  </p>
+                  <div class="dia-tags"><span class="dia-tag">Volcán</span><span class="dia-tag">Naturaleza</span></div>
+                </div>
+                <div class="actividades">
+                  <div><time datetime="07:00">07:00</time><p>Lancha rápida hacia Puerto Villamil, en Isabela. <span>Posible escolta de delfines durante el trayecto.</span></p></div>
+                  <div><time datetime="09:30">09:30</time><p>Ascenso al volcán Sierra Negra. <span>El segundo cráter activo más grande del mundo, 10 km de diámetro.</span></p></div>
+                  <div><time datetime="13:30">13:30</time><p>Almuerzo frente al mar en Puerto Villamil. <span>Ceviche con pescado del día, recién desembarcado.</span></p></div>
+                  <div><time datetime="16:00">16:00</time><p>Snorkel en Los Túneles o Concha de Perla. <span>Caballitos de mar, rayas y tortugas en manglares cristalinos.</span></p></div>
+                </div>
+              </article>
+
+              <article class="dia">
+                <span class="dia-num" aria-hidden="true">5</span>
+                <div class="dia-head">
+                  <h3>Playas escondidas</h3>
+                  <p class="ruta">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    El Garrapatero · Regreso a Santa Cruz
+                  </p>
+                  <div class="dia-tags"><span class="dia-tag">Playa</span><span class="dia-tag">Relax</span></div>
+                </div>
+                <div class="actividades">
+                  <div><time datetime="08:00">08:00</time><p>Regreso en lancha a Santa Cruz y desayuno tardío. <span>Mañana tranquila en Puerto Ayora.</span></p></div>
+                  <div><time datetime="10:30">10:30</time><p>Visita a la playa El Garrapatero. <span>Arena blanca, flamencos rosados y un mar en dos tonos de azul.</span></p></div>
+                  <div><time datetime="14:00">14:00</time><p>Almuerzo campestre en las tierras altas. <span>Café de altura cultivado en la isla.</span></p></div>
+                  <div><time datetime="16:30">16:30</time><p>Tarde libre: compras de recuerdos y última tarde de mar. <span>Cena de despedida con productos locales.</span></p></div>
+                </div>
+              </article>
+
+              <article class="dia">
+                <span class="dia-num" aria-hidden="true">6</span>
+                <div class="dia-head">
+                  <h3>Tortugas y adiós</h3>
+                  <p class="ruta">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+                    Reserva El Chato · Aeropuerto de Baltra
+                  </p>
+                  <div class="dia-tags"><span class="dia-tag">Despedida</span><span class="dia-tag">Regreso</span></div>
+                </div>
+                <div class="actividades">
+                  <div><time datetime="08:30">08:30</time><p>Última caminata por la Reserva El Chato. <span>Tortugas gigantes en libertad entre helechos gigantes y tunas.</span></p></div>
+                  <div><time datetime="11:00">11:00</time><p>Visita a los túneles de lava. <span>Formaciones volcánicas que cuentan la geología más reciente del archipiélago.</span></p></div>
+                  <div><time datetime="13:00">13:00</time><p>Almuerzo ligero y traslado al aeropuerto de Baltra. <span>Fin de nuestros servicios, con la promesa de volver.</span></p></div>
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== LLAMADO A LA ACCIÓN ================== -->
+    <section class="cta-band" aria-labelledby="titulo-cta-itinerarios">
+      <div class="container reveal">
+        <h2 id="titulo-cta-itinerarios">Reserva tu lugar en la ruta</h2>
+        <p>
+          Estos itinerarios son 100% personalizables: agrega días, cambia hoteles
+          o combina las dos rutas en un gran circuito por Ecuador.
+        </p>
+        <div class="cta-actions">
+          <a class="btn btn-light" href="contacto.html">Consultar fechas y precios</a>
+          <a class="btn btn-ghost" href="paquetes.html">Ver paquetes relacionados</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="textil" aria-hidden="true"></div>
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-about">
+          <a class="brand" href="index.html">
+            <img class="brand-mark" src="images/logo-badge.png" alt="" width="42" height="42" decoding="async">
+            <span class="brand-name">Ruta<b>Viva</b></span>
+          </a>
+          <p>
+            Agencia de turismo especializada en Ecuador. Diseñamos viajes
+            auténticos por la Costa, la sierra, la Amazonía y Galápagos,
+            junto a las comunidades que hacen único a cada destino.
+          </p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook de RutaViva">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram de RutaViva">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>
+            </a>
+            <a href="https://wa.me/593991234567" target="_blank" rel="noopener" aria-label="WhatsApp de RutaViva">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            </a>
+            <a href="https://x.com/" target="_blank" rel="noopener" aria-label="Perfil de RutaViva en X">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <nav aria-label="Enlaces del sitio">
+          <h3>Explora</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="destinos.html">Destinos turísticos</a></li>
+            <li><a href="galeria.html">Galería de fotos</a></li>
+            <li><a href="paquetes.html">Paquetes turísticos</a></li>
+            <li><a href="itinerarios.html">Itinerarios</a></li>
+            <li><a href="contacto.html">Consultas</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <h3>Destinos</h3>
+          <ul class="footer-links">
+            <li><a href="destinos.html#galapagos">Islas Galápagos</a></li>
+            <li><a href="destinos.html#quito">Quito Colonial</a></li>
+            <li><a href="destinos.html#banos">Baños</a></li>
+            <li><a href="destinos.html#cuenca">Cuenca</a></li>
+            <li><a href="destinos.html#cotopaxi">Cotopaxi y Quilotoa</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Contacto</h3>
+          <p class="footer-dato">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            Av. Amazonas N36-152 y Naciones Unidas, Quito — Ecuador
+          </p>
+          <p class="footer-dato">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            <a href="tel:+593991234567">+593 99 123 4567</a>
+          </p>
+          <p class="footer-dato">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+            <a href="mailto:hola@rutaviva.ec">hola@rutaviva.ec</a>
+          </p>
+          <p class="footer-dato">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            Lunes a sábado · 9:00 — 18:00
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 RutaViva · Todos los derechos reservados</p>
+        <p class="footer-tech">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg>
+          Sitio académico desarrollado con HTML5 semántico y CSS3 · Mobile First
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

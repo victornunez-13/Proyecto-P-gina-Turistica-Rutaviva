@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RutaViva · Descubre Ecuador — Turismo, Aventura y Cultura</title>
+  <meta name="description" content="RutaViva es tu agencia de turismo en Ecuador: Galápagos, Quito, Baños, Cuenca y Cotopaxi. Paquetes, itinerarios y experiencias con guías locales.">
+  <meta name="author" content="RutaViva">
+  <meta name="theme-color" content="#c05621">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;1,600&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <!-- ================== CABECERA Y NAVEGACIÓN ================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a class="brand" href="index.html" aria-label="RutaViva — volver al inicio">
+        <img class="brand-mark" src="images/logo-badge.png" alt="" width="42" height="42" decoding="async">
+        <span class="brand-name">Ruta<b>Viva</b></span>
+      </a>
+
+      <!-- Menú responsive 100% CSS (casilla + etiqueta) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-label="Abrir o cerrar el menú de navegación">
+      <label for="nav-toggle" class="nav-toggle" aria-hidden="true">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html" aria-current="page">Inicio</a></li>
+          <li><a href="destinos.html">Destinos</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="paquetes.html">Paquetes</a></li>
+          <li><a href="itinerarios.html">Itinerarios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+
+    <!-- ================== HÉROE PRINCIPAL ================== -->
+    <section class="hero" aria-labelledby="titulo-principal">
+      <div class="hero-media">
+        <img src="images/hero-quilotoa.jpg" alt="Laguna turquesa del cráter del Quilotoa rodeada de montañas andinas al amanecer">
+      </div>
+      <div class="container">
+        <div class="hero-content">
+          <span class="hero-logo-wrap">
+            <img class="hero-logo" src="images/logo-badge.png" alt="Sello circular de RutaViva Ecuador con montañas, tortuga de Galápagos y sol andino" width="88" height="88" decoding="async">
+          </span>
+          <p class="kicker">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+            Agencia de turismo · Ecuador
+          </p>
+          <h1 id="titulo-principal">Cuatro mundos en <em>un solo viaje</em></h1>
+          <p class="lead">
+            Costa, Sierra, Amazonía y Galápagos: Ecuador concentra paisajes, culturas
+            y aventuras que muy pocos países pueden ofrecer a la vez. En RutaViva
+            te llevamos por volcanes nevados, selvas vivas, ciudades coloniales y
+            playas de agua turquesa con la calidez de quienes conocen cada rincón.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="destinos.html">
+              Explorar destinos
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="paquetes.html">Ver paquetes y precios</a>
+          </div>
+        </div>
+      </div>
+      <a class="hero-scroll" href="#presentacion">
+        Desliza
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+      </a>
+    </section>
+
+    <!-- ================== ESTADÍSTICAS ================== -->
+    <div class="stats" aria-label="Cifras destacadas de RutaViva en Ecuador">
+      <div class="container">
+        <div class="stats-inner reveal">
+          <div class="stat"><strong>4</strong><span>Regiones naturales</span></div>
+          <div class="stat"><strong>5</strong><span>Destinos insignia</span></div>
+          <div class="stat"><strong>12+</strong><span>Experiencias guiadas</span></div>
+          <div class="stat"><strong>24/7</strong><span>Asistencia en viaje</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================== PRESENTACIÓN E IDENTIDAD ================== -->
+    <section class="section" id="presentacion" aria-labelledby="titulo-presentacion">
+      <div class="container">
+        <div class="section-head center reveal">
+          <p class="kicker">Quiénes somos</p>
+          <h2 id="titulo-presentacion">Viajes con alma ecuatoriana</h2>
+          <p class="lead">
+            Somos una agencia de turismo especializada en destinos de Ecuador. Diseñamos
+            recorridos a la medida junto a comunidades locales, con guías certificados
+            que convierten cada trayecto en una historia digna de contarse.
+          </p>
+        </div>
+
+        <div class="features">
+          <article class="feature reveal">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <h3>Guías locales certificados</h3>
+            <p>Nuestros guías nacieron en los destinos que recorren y conocen sus historias, sus sabores y sus senderos mejor que nadie.</p>
+          </article>
+
+          <article class="feature reveal reveal-delay">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </span>
+            <h3>Grupos pequeños</h3>
+            <p>Viajamos con máximo 12 personas para que la experiencia sea cercana, flexible y respetuosa con las comunidades que visitamos.</p>
+          </article>
+
+          <article class="feature reveal">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+            </span>
+            <h3>Turismo sostenible</h3>
+            <p>Trabajamos con operadores locales, reducimos plástico en cada ruta y destinamos parte de nuestras utilidades a proyectos de conservación.</p>
+          </article>
+
+          <article class="feature reveal reveal-delay">
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg>
+            </span>
+            <h3>Respaldo total</h3>
+            <p>Asistencia en español e inglés durante todo el viaje, seguros de viajero y protocolos de seguridad en cada actividad.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== DESTINOS DESTACADOS ================== -->
+    <section class="section section-alt" id="destacados" aria-labelledby="titulo-destacados">
+      <div class="container">
+        <div class="section-head center reveal">
+          <p class="kicker">Destinos destacados</p>
+          <h2 id="titulo-destacados">Los lugares que no te puedes perder</h2>
+          <p class="lead">
+            Una selección de nuestros destinos favoritos: islas únicas en el mundo,
+            centros históricos patrimoniales, cascadas escondidas y volcanes que
+            tocan el cielo.
+          </p>
+        </div>
+
+        <div class="grid-cards">
+          <article class="card reveal">
+            <figure class="card-media">
+              <img src="images/galapagos-tortuga.jpg" alt="Tortuga gigante de Galápagos caminando entre vegetación">
+              <span class="tag tag-naturaleza">Naturaleza</span>
+            </figure>
+            <div class="card-body">
+              <h3><a href="destinos.html#galapagos">Islas Galápagos</a></h3>
+              <p>El laboratorio natural de Darwin: tortugas gigantes, iguanas marinas y playas vírgenes declaradas Patrimonio de la Humanidad.</p>
+              <a class="card-link" href="destinos.html#galapagos">
+                Descubrir
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="card reveal reveal-delay">
+            <figure class="card-media">
+              <img src="images/quito-centro.jpg" alt="Centro histórico de Quito con fachadas coloniales y la Basílica al fondo">
+              <span class="tag tag-ciudad">Ciudad</span>
+            </figure>
+            <div class="card-body">
+              <h3><a href="destinos.html#quito">Quito Colonial</a></h3>
+              <p>El centro histórico mejor conservado de América Latina, a 2.850 metros de altura y cruzado por la línea del ecuador.</p>
+              <a class="card-link" href="destinos.html#quito">
+                Descubrir
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="card reveal">
+            <figure class="card-media">
+              <img src="images/banos-cascada.jpg" alt="Cascada del Pailón del Diablo en Baños rodeada de vegetación">
+              <span class="tag tag-aventura">Aventura</span>
+            </figure>
+            <div class="card-body">
+              <h3><a href="destinos.html#banos">Baños de Agua Santa</a></h3>
+              <p>La puerta de la Amazonía ecuatoriana: cascadas impresionantes, aguas termales, rafting y el famoso swing del fin del mundo.</p>
+              <a class="card-link" href="destinos.html#banos">
+                Descubrir
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="card reveal reveal-delay">
+            <figure class="card-media">
+              <img src="images/cuenca-catedral.jpg" alt="Catedral Nueva de Cuenca con sus cúpulas azules bajo el cielo">
+              <span class="tag tag-cultura">Cultura</span>
+            </figure>
+            <div class="card-body">
+              <h3><a href="destinos.html#cuenca">Cuenca</a></h3>
+              <p>Ciudad de mármol y ríos, famosa por sus catedrales, sus sombreros de paja toquilla y su tranquila vida andina.</p>
+              <a class="card-link" href="destinos.html#cuenca">
+                Descubrir
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-more reveal">
+          <a class="btn btn-outline" href="destinos.html">
+            Ver todos los destinos
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== LLAMADO A LA ACCIÓN ================== -->
+    <section class="cta-band" aria-labelledby="titulo-cta">
+      <div class="container reveal">
+        <h2 id="titulo-cta">¿Listo para tu próxima aventura?</h2>
+        <p>
+          Cuéntanos qué tipo de viajero eres y armaremos una propuesta a tu medida,
+          sin costo y sin compromiso. También puedes revisar nuestros paquetes
+          diseñados por regiones y duración.
+        </p>
+        <div class="cta-actions">
+          <a class="btn btn-light" href="paquetes.html">
+            Ver paquetes
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="contacto.html">Solicitar asesoría gratuita</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================== PIE DE PÁGINA ================== -->
+  <footer class="site-footer">
+    <div class="textil" aria-hidden="true"></div>
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-about">
+          <a class="brand" href="index.html">
+            <img class="brand-mark" src="images/logo-badge.png" alt="" width="42" height="42" decoding="async">
+            <span class="brand-name">Ruta<b>Viva</b></span>
+          </a>
+          <p>
+            Agencia de turismo especializada en Ecuador. Diseñamos viajes
+            auténticos por la Costa, la Sierra, la Amazonía y Galápagos,
+            junto a las comunidades que hacen único a cada destino.
+          </p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook de RutaViva">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram de RutaViva">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>
+            </a>
+            <a href="https://wa.me/593991234567" target="_blank" rel="noopener" aria-label="WhatsApp de RutaViva">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            </a>
+            <a href="https://x.com/" target="_blank" rel="noopener" aria-label="Perfil de RutaViva en X">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <nav aria-label="Enlaces del sitio">
+          <h3>Explora</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="destinos.html">Destinos turísticos</a></li>
+            <li><a href="galeria.html">Galería de fotos</a></li>
+            <li><a href="paquetes.html">Paquetes turísticos</a></li>
+            <li><a href="itinerarios.html">Itinerarios</a></li>
+            <li><a href="contacto.html">Consultas</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <h3>Destinos</h3>
+          <ul class="footer-links">
+            <li><a href="destinos.html#galapagos">Islas Galápagos</a></li>
+            <li><a href="destinos.html#quito">Quito Colonial</a></li>
+            <li><a href="destinos.html#banos">Baños</a></li>
+            <li><a href="destinos.html#cuenca">Cuenca</a></li>
+            <li><a href="destinos.html#cotopaxi">Cotopaxi y Quilotoa</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Contacto</h3>
+          <p class="footer-dato">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            Av. Amazonas N36-152 y Naciones Unidas, Quito — Ecuador
+          </p>
+          <p class="footer-dato">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            <a href="tel:+593991234567">+593 99 123 4567</a>
+          </p>
+          <p class="footer-dato">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+            <a href="mailto:hola@rutaviva.ec">hola@rutaviva.ec</a>
+          </p>
+          <p class="footer-dato">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            Lunes a sábado · 9:00 — 18:00
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 RutaViva · Todos los derechos reservados</p>
+        <p class="footer-tech">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg>
+          Sitio académico desarrollado con HTML5 semántico y CSS3 · Mobile First
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

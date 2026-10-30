@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paquetes turísticos en Ecuador · RutaViva</title>
+  <meta name="description" content="Paquetes turísticos por Ecuador con precios, duración y servicios incluidos: Esencia Andina, Costa y Ballenas, Amazonía Viva y Galápagos Esencial.">
+  <meta name="theme-color" content="#c05621">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,700;1,600&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="RutaViva — volver al inicio">
+        <img class="brand-mark" src="images/logo-badge.png" alt="" width="42" height="42" decoding="async">
+        <span class="brand-name">Ruta<b>Viva</b></span>
+      </a>
+
+      <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox" aria-label="Abrir o cerrar el menú de navegación">
+      <label for="nav-toggle" class="nav-toggle" aria-hidden="true">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </label>
+
+      <nav class="site-nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="destinos.html">Destinos</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="paquetes.html" aria-current="page">Paquetes</a></li>
+          <li><a href="itinerarios.html">Itinerarios</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+
+    <!-- ================== HÉROE DE PÁGINA ================== -->
+    <section class="page-hero" aria-labelledby="titulo-paquetes">
+      <div class="hero-media">
+        <img src="images/nariz-diablo.jpg" alt="Tren de la Nariz del Diablo descendiendo por la serranía andina ecuatoriana">
+      </div>
+      <div class="container">
+        <div class="page-hero-content">
+          <p class="kicker">Todo organizado, solo disfruta</p>
+          <h1 id="titulo-paquetes">Paquetes turísticos</h1>
+          <p class="lead">
+            Cuatro experiencias completas por región, con precios claros,
+            duración definida y servicios detallados. Elige la tuya.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== TARJETAS DE PAQUETES ================== -->
+    <section class="section" aria-label="Catálogo de paquetes turísticos">
+      <div class="container">
+        <div class="paquetes-grid">
+
+          <!-- Paquete 1: Esencia Andina -->
+          <article class="paquete reveal" id="andina-paquete">
+            <figure class="paquete-media">
+              <img src="images/cotopaxi.jpg" alt="Volcán Cotopaxi nevado, protagonista del paquete Esencia Andina">
+              <span class="tag tag-aventura">Sierra</span>
+            </figure>
+            <div class="paquete-body">
+              <div class="paquete-top">
+                <h3>Esencia Andina</h3>
+                <span class="paquete-dias">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                  5 días
+                </span>
+              </div>
+              <p>Quito, Cotopaxi, Quilotoa y el mercado de Otavalo: lo mejor de los Andes en un solo circuito.</p>
+              <p class="paquete-precio">
+                <small class="desde">desde</small>
+                <strong>$590</strong>
+                <small>por persona</small>
+              </p>
+              <ul class="paquete-servicios">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>4 noches en hoteles seleccionados</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Desayunos diarios y 2 almuerzos</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Transporte privado y guía certificado</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Entradas a parques nacionales</li>
+              </ul>
+              <a class="btn btn-primary btn-block" href="contacto.html">Consultar este paquete</a>
+            </div>
+          </article>
+
+          <!-- Paquete 2: Costa y Ballenas -->
+          <article class="paquete reveal reveal-delay">
+            <figure class="paquete-media">
+              <img src="images/montanita-playa.jpg" alt="Playa de Montañita con palmeras al atardecer, destino del paquete Costa y Ballenas">
+              <span class="tag tag-ciudad">Costa</span>
+            </figure>
+            <div class="paquete-body">
+              <div class="paquete-top">
+                <h3>Costa y Ballenas</h3>
+                <span class="paquete-dias">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                  4 días
+                </span>
+              </div>
+              <p>Guayaquil, Puerto López y Montañita, con avistamiento de ballenas jorobadas en temporada.</p>
+              <p class="paquete-precio">
+                <small class="desde">desde</small>
+                <strong>$480</strong>
+                <small>por persona</small>
+              </p>
+              <ul class="paquete-servicios">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>3 noches frente al mar</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Salida en barco a ver ballenas</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>City tour por Guayaquil</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Playa de Los Frailes (Machalilla)</li>
+              </ul>
+              <a class="btn btn-primary btn-block" href="contacto.html">Consultar este paquete</a>
+            </div>
+          </article>
+
+          <!-- Paquete 3: Amazonía Viva -->
+          <article class="paquete reveal">
+            <figure class="paquete-media">
+              <img src="images/amazonia-rio.jpg" alt="Canoa en un río amazónico, puerta del paquete Amazonía Viva">
+              <span class="tag tag-naturaleza">Amazonía</span>
+            </figure>
+            <div class="paquete-body">
+              <div class="paquete-top">
+                <h3>Amazonía Viva</h3>
+                <span class="paquete-dias">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                  4 días
+                </span>
+              </div>
+              <p>Inmersión total en la selva: lodge ecológico, ríos navegables y una comunidad kichwa que te recibe.</p>
+              <p class="paquete-precio">
+                <small class="desde">desde</small>
+                <strong>$640</strong>
+                <small>por persona</small>
+              </p>
+              <ul class="paquete-servicios">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>3 noches en lodge ecológico</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Pensión completa (3 comidas)</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Caminatas con guía naturalista</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Navegación nocturna en canoa</li>
+              </ul>
+              <a class="btn btn-primary btn-block" href="contacto.html">Consultar este paquete</a>
+            </div>
+          </article>
+
+          <!-- Paquete 4: Galápagos Esencial (destacado) -->
+          <article class="paquete paquete-destacado reveal reveal-delay" id="galapagos-paquete">
+            <figure class="paquete-media">
+              <img src="images/galapagos-mar.jpg" alt="Lobo marino en una playa turquesa de Galápagos, destino estrella del catálogo">
+              <span class="tag tag-naturaleza">Galápagos</span>
+            </figure>
+            <div class="paquete-body">
+              <div class="paquete-top">
+                <h3>Galápagos Esencial</h3>
+                <span class="paquete-dias">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+                  6 días
+                </span>
+              </div>
+              <p>Santa Cruz e Isabela con snorkel, tortugas gigantes y el cráter Sierra Negra en seis días inolvidables.</p>
+              <p class="paquete-precio">
+                <small class="desde">desde</small>
+                <strong>$1.290</strong>
+                <small>por persona</small>
+              </p>
+              <ul class="paquete-servicios">
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>5 noches en Puerto Ayora e Isabela</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Dos excursiones con snorkel</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Guía naturalista certificado</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Traslados internos en las islas</li>
+              </ul>
+              <a class="btn btn-primary btn-block" href="contacto.html">Consultar este paquete</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================== TABLA COMPARATIVA ================== -->
+    <section class="section section-alt" aria-labelledby="titulo-comparativa">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="kicker">Compara de un vistazo</p>
+          <h2 id="titulo-comparativa">¿Cuál paquete te conviene?</h2>
+          <p class="lead">
+            Resumen de servicios por paquete. En móvil puedes deslizar la tabla
+            hacia los lados para ver todas las columnas.
+          </p>
+        </div>
+
+        <div class="tabla-wrap reveal">
+          <table class="tabla-comparativa">
+            <caption>Comparativa de servicios por paquete turístico</caption>
+            <thead>
+              <tr>
+                <th scope="col">Servicio</th>
+                <th scope="col">Esencia Andina</th>
+                <th scope="col">Costa y Ballenas</th>
+                <th scope="col">Amazonía Viva</th>
+                <th scope="col">Galápagos Esencial</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Duración</th>
+                <td>5 días / 4 noches</td>
+                <td>4 días / 3 noches</td>
+                <td>4 días / 3 noches</td>
+                <td>6 días / 5 noches</td>
+              </tr>
+              <tr>
+                <th scope="row">Precio por persona</th>
+                <td>desde $590</td>
+                <td>desde $480</td>
+                <td>desde $640</td>
+                <td>desde $1.290</td>
+              </tr>
+              <tr>
+                <th scope="row">Desayunos diarios</th>
+                <td class="c-si"><span class="sr-only">Incluido</span></td>
+                <td class="c-si"><span class="sr-only">Incluido</span></td>
+                <td class="c-si"><span class="sr-only">Incluido</span></td>
+                <td class="c-si"><span class="sr-only">Incluido</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Comidas adicionales</th>
+                <td>2 almuerzos</td>
+                <td>1 almuerzo</td>
+                <td>Pensión completa</td>
+                <td>1 almuerzo</td>
+              </tr>
+              <tr>
+                <th scope="row">Guía certificado</th>
+                <td class="c-si"><span class="sr-only">Incluido</span></td>
+                <td class="c-si"><span class="sr-only">Incluido</span></td>
+                <td class="c-si"><span class="sr-only">Incluido</span></td>
+                <td class="c-si"><span class="sr-only">Incluido</span></td>
+              </tr>
+              <tr>
+                <th scope="row">Transporte privado</th>
+                <td class="c-si"><span class="sr-only">Incluido</span></td>
+                <td class="c-si"><span class="sr-only">Incluido</span></td>
+                <td class="c-si"><span class="sr-only">Incluido</span></td>
+                <td>Solo traslados internos</td>
+              </tr>
+              <tr>
+                <th scope="row">Actividad insignia</th>
+                <td>Volcanes y mercado de Otavalo</td>
+                <td>Ballenas jorobadas</td>
+                <td>Comunidad kichwa</td>
+                <td>Snorkel con fauna única</td>
+              </tr>
+              <tr>
+                <th scope="row">Temporada recomendada</th>
+                <td>Todo el año</td>
+                <td>Junio a septiembre</td>
+                <td>Todo el año</td>
+                <td>Todo el año</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <ul class="notas reveal" aria-label="Condiciones y notas de los paquetes">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+            Precios de referencia 2026, por persona, en habitación doble. Ecuador usa el dólar estadounidense como moneda oficial.
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+            Suplemento por habitación individual: +35%. Menores de 6 años: 25% de descuento compartiendo habitación con dos adultos.
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+            En Galápagos los vuelos internos y la tarjeta de tránsito del parque nacional no están incluidos; los cotizamos aparte.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================== LLAMADO A LA ACCIÓN ================== -->
+    <section class="cta-band" aria-labelledby="titulo-cta-paquetes">
+      <div class="container reveal">
+        <h2 id="titulo-cta-paquetes">¿Ninguno encaja al 100%?</h2>
+        <p>
+          Combina destinos, ajusta fechas o pide un circuito a tu medida:
+          nuestras asesoras responden en menos de 24 horas hábiles.
+        </p>
+        <div class="cta-actions">
+          <a class="btn btn-light" href="contacto.html">Armar mi viaje a medida</a>
+          <a class="btn btn-ghost" href="itinerarios.html">Ver itinerarios día por día</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="textil" aria-hidden="true"></div>
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-about">
+          <a class="brand" href="index.html">
+            <img class="brand-mark" src="images/logo-badge.png" alt="" width="42" height="42" decoding="async">
+            <span class="brand-name">Ruta<b>Viva</b></span>
+          </a>
+          <p>
+            Agencia de turismo especializada en Ecuador. Diseñamos viajes
+            auténticos por la Costa, la Sierra, la Amazonía y Galápagos,
+            junto a las comunidades que hacen único a cada destino.
+          </p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook de RutaViva">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram de RutaViva">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></svg>
+            </a>
+            <a href="https://wa.me/593991234567" target="_blank" rel="noopener" aria-label="WhatsApp de RutaViva">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            </a>
+            <a href="https://x.com/" target="_blank" rel="noopener" aria-label="Perfil de RutaViva en X">
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <nav aria-label="Enlaces del sitio">
+          <h3>Explora</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="destinos.html">Destinos turísticos</a></li>
+            <li><a href="galeria.html">Galería de fotos</a></li>
+            <li><a href="paquetes.html">Paquetes turísticos</a></li>
+            <li><a href="itinerarios.html">Itinerarios</a></li>
+            <li><a href="contacto.html">Consultas</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <h3>Destinos</h3>
+          <ul class="footer-links">
+            <li><a href="destinos.html#galapagos">Islas Galápagos</a></li>
+            <li><a href="destinos.html#quito">Quito Colonial</a></li>
+            <li><a href="destinos.html#banos">Baños</a></li>
+            <li><a href="destinos.html#cuenca">Cuenca</a></li>
+            <li><a href="destinos.html#cotopaxi">Cotopaxi y Quilotoa</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Contacto</h3>
+          <p class="footer-dato">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            Av. Amazonas N36-152 y Naciones Unidas, Quito — Ecuador
+          </p>
+          <p class="footer-dato">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+            <a href="tel:+593991234567">+593 99 123 4567</a>
+          </p>
+          <p class="footer-dato">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+            <a href="mailto:hola@rutaviva.ec">hola@rutaviva.ec</a>
+          </p>
+          <p class="footer-dato">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            Lunes a sábado · 9:00 — 18:00
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 RutaViva · Todos los derechos reservados</p>
+        <p class="footer-tech">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg>
+          Sitio académico desarrollado con HTML5 semántico y CSS3 · Mobile First
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
